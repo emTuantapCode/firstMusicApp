@@ -1,0 +1,14 @@
+{
+    "songs":[
+        {
+            "nameSong" : "",
+            "nameSinger" : "",
+            "url" : "https://www.nhaccuatui.com/bai-hat/attention-charlie-puth.UUGyfRO4e4Ns.html"
+        },
+        {
+            "nameSong" : "",
+            "nameSinger" : "",
+            "url" : "./public/music/Attention - Charlie Puth.mp3"
+        }
+    ]
+}

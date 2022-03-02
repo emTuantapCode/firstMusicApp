@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./fontaawesome/fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.css">
+</head>
+<body id="App">
+    <div class="heading-app">
+        <div class="header">
+            <h4>Now playing</h4>
+            <h3 class="singer-name">Singer name</h3>
+        </div>
+        <div class="cd">
+            <img id="headingImg" src="./img/Sugar.jpg" alt="Album.jpg">
+        </div>
+        <div class="handel-playing">
+            <div class="repeat handel-btn">
+                <i class="fa-solid fa-arrow-rotate-right"></i>
+            </div>
+            <div class="back handel-btn">
+                <i class="fa-solid fa-backward"></i>
+            </div>
+            <div class="play-pause handel-btn">
+                <i class="fa-solid fa-circle-play icon-play"></i>
+                <i class="fa-solid fa-circle-pause icon-pause"></i>
+            </div>
+            <div class="next handel-btn" >
+                <i class="fa-solid fa-forward"></i>
+            </div>
+            <div class="random handel-btn">
+                <i class="fa-solid fa-shuffle"></i>
+            </div>
+            <audio id="audio-heading" src=""></audio>
+            <div class="class"></div>
+        </div>
+        <input id="progress" class="range-line" type="range" min="0" max="100" step="1" value="0">
+    </div>
+    <div class="classlist-box">
+        <div style="padding-bottom: 8px;" class="froam"></div>
+        <div class="box-songs"></div>
+        
+    </div>
+    <div class="class"></div>
+
+    <script src="../main.js"></script>
+</body>
+</html>

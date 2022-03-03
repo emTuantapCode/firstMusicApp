@@ -23,7 +23,7 @@ body {
     width: 740px;
     max-width: 100%;
     padding-top: 10px;
-    background-image: url('./img/appleBG.jpg');
+    background-image: url('./public/img/appleBG.jpg');
     background-size: cover;
     border-radius: 8px;
     position: fixed;
